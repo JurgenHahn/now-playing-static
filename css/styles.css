@@ -202,6 +202,10 @@ figure {
     display: inline-block;
   }
 
+  .site-nav-list {
+    margin-top: 15px;
+  }
+
   .site-nav {
     height: 100%;
     width: 110px;
@@ -209,14 +213,16 @@ figure {
     }
 
   .site-nav-item {
+    height: 75px;
     width:100%;
-    padding:2.75em;
+    padding:15px;
   }
 
   .site-logo {
     position:relative;
     top:1rem;
     left:1rem;
+    paddig-bottom: 20px;
   }
 
 
