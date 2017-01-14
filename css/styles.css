@@ -213,22 +213,17 @@ figure {
 
   .site-nav-item {
     height: 75px;
-    width:100%;
-    padding:15px;
-  }
-
-  .site-logo {
-    position:relative;
-    padding-bottom: 20px;
+    width: 100%;
+    padding: 15px;
   }
 
   main {
-    margin-left:111px;
+    margin-left: 110px;
   }
 
   .site-footer{
     background-color: black;
-    margin-left: 111px;
+    margin-left: 110px;
   }
 
   .footer-nav {
