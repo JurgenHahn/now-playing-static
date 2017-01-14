@@ -199,7 +199,7 @@ figure {
 @media (min-width: 768px) {
 
   .movie-overview {
-    display: inline-block;
+    display: block;
   }
 
   .site-nav-list {
@@ -209,8 +209,7 @@ figure {
   .site-nav {
     height: 100%;
     width: 110px;
-    float: left;
-    }
+  }
 
   .site-nav-item {
     height: 75px;
@@ -220,11 +219,8 @@ figure {
 
   .site-logo {
     position:relative;
-    top:1rem;
-    left:1rem;
-    paddig-bottom: 20px;
+    padding-bottom: 20px;
   }
-
 
   main {
     margin-left:111px;
@@ -236,20 +232,18 @@ figure {
   }
 
   .footer-nav {
-    float:left;
-    width:50%;
-    background-color: black;
+    float: left;
+    width: 50%;
     color: white;
     height: 100%;
   }
 
-  .about {
-    background-color: black;
-    color: white;
+  .foot-nav-list {
+    width: 100%;
   }
 
-  .foot-nav-list {
-    width:100%;
+  .about {
+    color: white;
   }
 
   body {
@@ -259,11 +253,11 @@ figure {
 
 @media (min-width: 992px) {
 
-.movie:nth-child(n+2) .movie-backdrop {
+  .movie:nth-child(n+2) .movie-backdrop {
     display: none;
   }
 
-.movie:nth-child(n+2) .movie-poster {
+  .movie:nth-child(n+2) .movie-poster {
     display: block;
   }
 
@@ -271,10 +265,10 @@ figure {
     display: none;
   }
 
-.movie:nth-child(n+2) {
-  float:left;
-  width:33.33%
-}
+  .movie:nth-child(n+2) {
+    float:left;
+    width:33.33%
+  }
 
 footer {
   clear:both;
@@ -283,9 +277,9 @@ footer {
 }
 
 @media (min-width: 1280px){
+
   img {
     width:100%;
-  }
   }
 
 }
