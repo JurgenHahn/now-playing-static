@@ -209,6 +209,7 @@ figure {
   .site-nav {
     height: 100%;
     width: 110px;
+    padding-top:79px;
   }
 
   .site-nav-item {
